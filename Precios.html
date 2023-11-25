@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+</head>
+
+<body>
+    <div id="inicio" class="header-info d-flex align-items-center px-5 py-1 ent-primary-bg fs-6 text-center">
+        <div class="col-md-3">
+            <div class="row d-flex justify-content-start">
+                <div class="col-md-1 ent-secondary">
+                    <i class="fas fa-clock fa-xs" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-5 text-light text-start">
+                    Lunes - Sábados
+                </div>
+                <div class="col-md-4 text-muted fw-bold text-start">
+                    24 horas
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row d-flex justify-content-start">
+                <div class="col-md-1 ent-secondary">
+                    <i class="fas fa-map-marker-alt fa-xs" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-2 text-light text-start">
+                    Oficina
+                </div>
+                <div class="col-md-9 text-muted fw-bold text-start">
+                    Chimbote, Ancash - Perú
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="row d-flex justify-content-end">
+                <div class="col-md-8 text-light text-end">
+                    Visita nuestras redes sociales
+                </div>
+                <div class="col-md-3 text-muted fw-bold">
+                    <div class="row">
+                        <div class="col-md-3 ent-secondary">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-md-3 ent-secondary">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-md-3 ent-secondary">
+                            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-md-3 ent-secondary">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav
+        class="navWeb autosize d-flex-fill navbar sticky-top navbar-expand-lg navbar-light header-color px-5 py-3 shadow">
+        <div class="col d-flex ms-2 my-1 justify-content-center">
+            <img class="col-md-3 ps-5 navbar-brand logo" src="assets/img/logo/logo.png">
+            <div class="col-md-9 d-flex align-items-center justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav fs-5 ">
+                    <li class="nav-item my-2 me-3">
+                        <a aria-current="page" href="index.html#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item my-2 mx-3">
+                        <a href="index.html#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item my-2 mx-3">
+                        <a href="index.html#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item my-2 mx-3">
+                        <a href="Precios.html">Precios</a>
+                    </li>
+                    <li class="nav-item my-2 mx-3">
+                        <a href="index.html#">Blog</a>
+                    </li>
+                    <li class="nav-item my-2 mx-3">
+                        <a href="index.html#">Contáctenos</a>
+                    </li>
+                    <li class="nav-item me-2 mx-3">
+                        <span class="nav-link text-success fas fa-phone fa-1x" aria-hidden="true"></span>
+                    </li>
+                    <li class="nav-item me-2 ms-3">
+                        <button class="ent-btn btn ent-primary-bg text-light fs-5" type="button"
+                            onclick="location.href='Cotizar.html'">
+                            Cotizar ERP
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <nav class="navMovil autosize navbar sticky-top navbar-expand-lg navbar-light header-color d-none shadow">
+        <div class="container-fluid mx-3 my-2">
+            <img class="navbar-brand logo" src="assets/img/logo/logo.png">
+
+            <div class="d-flex justify-content-end">
+                <ul class="navbar-nav fs-5">
+                    <button class="btn ent-secondary-out" type="button" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carousel-slider" class="carousel slide aos-item" data-bs-ride="carousel" data-aos="fade-down">
+        <div class="carousel-inner">
+        </div>
+    </div>
+    <section id="planes" style="background-image: url('assets/img/bgn-industries.png')">
+        <section id="plans-prices" class="block prices" data-name="Plans">
+            <div class="block-content text-center">
+                <h2 class="prices-section__heading color-primary">Planes</h2>
+                <p class="description">Elige uno de nuestros planes y empieza a crecer con Alestec</p>
+                <div class="plans-switch"></div>
+                <div class="row plans cards-basic">
+                    <div class="col-xs-12 col-sm-12 col-md-4 plan pyme">
+                        <h2 class="plan-title">PYME</h2>
+                        <h3 class="plan-price price-pyme">S/. 65-Mes</h3>
+                        <p class="dct-10">10% de descuento en pago anual</p>
+                        <ul class="lista">
+                            <li class="lista-item">100 Facturas de venta mensuales</li>
+                            <li class="lista-item">Compras y ventas</li>
+                            <li class="lista-item">Arqueo de caja</li>
+                            <li class="lista-item">Control de inventario</li>
+                            <li class="lista-item">Usuarios 2</li>
+                            <li class="lista-item">Reportes</li>
+                            <li class="lista-item">Sucursal 2</li>
+                            <li class="lista-item">.</li>
+                            <li class="lista-item">.</li>
+                            <li class="lista-item">.</li>
+                            <li class="lista-item">.</li>
+                            <li class="lista-item">
+                                <a href="" class="button-plan" target="_blank" style="margin-top:20px;">Elegir Plan</a>
+                            </li>
+                            <li class="lista-item empty-li">&nbsp;</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 plan pro">
+                        <div class="txt-sugerido">
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.08321 5.46154L10.6721 8.22964L14.7228 4.7207L13.5083 9.94042L18.0972 12.7085L12.7576 13.1664L11.543 18.3861L9.45758 13.4494L4.11801 13.9072L8.16868 10.3983L6.08321 5.46154Z"
+                                    fill="white"></path>
+                            </svg> Sugerido
+                        </div>
+                        <h2 class="plan-title">PRO</h2>
+                        <h3 class="plan-price price-pro">S/. 129-Mes</h3>
+                        <p class="dct-10">10% de descuento en pago anual</p>
+                        <ul class="lista">
+                            <li class="lista-item">500 Facturas de venta mensuales</li>
+                            <li class="lista-item">Compras y ventas</li>
+                            <li class="lista-item">Cotizaciones</li>
+                            <li class="lista-item">Arqueo de caja</li>
+                            <li class="lista-item">Cuentas por cobrar</li>
+                            <li class="lista-item">Control de inventario</li>
+                            <li class="lista-item">Usuarios 10</li>
+                            <li class="lista-item">Reportes</li>
+                            <li class="lista-item">Almacén</li>
+                            <li class="lista-item">Sucursal 3</li>
+                            <li class="lista-item">.</li>
+                            <li class="lista-item">.</li>
+                            <li class="lista-item">
+                                <a href="" style="margin-top:20px;" class="button-plan" target="_blank">Elegir Plan</a></li>
+                            <li class="lista-item empty-li">&nbsp;</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 plan plus">
+                        <h2 class="plan-title">PLUS</h2>
+                        <h3 class="plan-price price-plus">S/. 230-Mes</h3>
+                        <p class="dct-10">10% de descuento en pago anual</p>
+                        <ul class="lista">
+                            <li class="lista-item">3000 Facturas de venta mensuales</li>
+                            <li class="lista-item">Compras y ventas</li>
+                            <li class="lista-item">Cotizaciones</li>
+                            <li class="lista-item">Arqueo de caja</li>
+                            <li class="lista-item">Cuentas por cobrar</li>
+                            <li class="lista-item">Control de inventario</li>
+                            <li class="lista-item">Usuarios 10</li>
+                            <li class="lista-item">Reportes</li>
+                            <li class="lista-item">Almacén</li>
+                            <li class="lista-item">Sucursales 5</li>
+                            <li class="lista-item">Contabilidad</li>
+                            <li class="lista-item">
+                                <a href="" class="button-plan" style="margin-top:20px;" target="_blank">Elegir Plan</a></li>
+                            <li class="lista-item">&nbsp;</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3 class="section__text-separator">¿Aún no encuentras <span class="color-primary">el mejor plan para
+                        ti?</span></h3>
+
+
+
+                <div class="section__advanced-plans">
+                    <div class=" row section__advanced-plan section__advanced-plan--theme-gray">
+                        <div class="col-xs-12 col-sm-12 col-md-2 section__advanced-plan-name-wrapper">
+                            <h3 class="section__advanced-plan-name">CORPORATIVO</h3>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 section__advanced-plan-price">¿Necesitas una solución
+                            sin límites? Este plan es para ti.
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 section__advanced-plan-features-wrapper">
+                            <div class="section__advanced-plan-features">
+                                <span class="section__advanced-plan-feature">Facturas ilimitadas al mes<br></span>
+                                <span class="section__advanced-plan-feature">Ingresos ilimitados al mes<br></span>
+                                <span class="section__advanced-plan-feature">Usuarios ilimitados</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2">
+                            <a href="" target="_blank">
+                                <button
+                                    class="section__advanced-plan-cta alegra-button alegra-button-lg alegra-button-outline alegra-button-rounded"
+                                    type="button">EMPIEZA AHORA</button>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="section__advanced_separador">
+
+                    </div>
+                    <div class="row section__advanced-plan section__advanced-plan--theme-gray">
+                        <div class="col-xs-12 col-sm-12 col-md-2  section__advanced-plan-name-wrapper">
+                            <h3 class="section__advanced-plan-name">EMPRENDEDOR</h3>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 section__advanced-plan-price">
+                            <span class="text-line-through" style="font-size:1rem">S/ 45 <span
+                                    style="font-size:1rem">pago mensual</span></span>
+                            <br>
+                            <h4 class="mt-1 mb-1" style="font-size:1.3rem;color:#47536b">S/ 40 /MES</h4>
+                            <span>Pagando anualmente</span>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 section__advanced-plan-features-wrapper">
+                            <div class="section__advanced-plan-features">
+                                <span class="section__advanced-plan-feature">12 facturas electrónicas y/o boletas<br></span>
+                                <span class="section__advanced-plan-feature">Compras/ventas y arqueo de caja<br></span>
+                                <span class="section__advanced-plan-feature">1 usuario con acceso<br></span>
+                                <span class="section__advanced-plan-feature">Incluye Control de inventarioy y reportes.</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2">
+                            <a href="" target="_blank">
+                                <button
+                                    class="section__advanced-plan-cta alegra-button alegra-button-lg alegra-button-outline alegra-button-rounded"
+                                    type="button">EMPIEZA AHORA</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="section__fotter-text">
+
+                        <h2 class="section__fotter-title">¿Quieres crear tu propia
+                            <spam class="color-primary">tienda en línea</spam>?
+                        </h2>
+                        <h3 class="section__fotter-description">Conoce
+                            <b><a class="color-primary" href="/es/tienda/" target="_blank"
+                                    rel="noopener noreferrer">Alestec tienda</a></b>, la nueva
+                            forma de vender fácil y seguro por internet.
+                            <br>Adquiere este producto por 10 Soles adicionales en cualquier plan.
+                        </h3>
+
+                    </div>
+                </div>
+        </section>
+
+
+
+    </section>
+
+
+    <div style="height: 50px;"></div>
+
+
+    <section class="ent-primary-bg text-light body-padd">
+        <div class="d-flex row align-items-center py-5" >
+            <div class="col-xl-3 ">
+                <div class="row pe-3">
+                    <div class="row container-md m-3">
+                        <div class="d-flex">
+                            <div class="footer row">
+                                <div class="col-12 fs-6 text-start">
+                                    Alestec
+                                </div>
+                                <div class="col-12 h4 text-start ent-secondary">
+                                    Alestec
+                                </div>
+                                <div class="col-12 fs-6 text-start">
+                                    Es una empresa que brinda soluciones y servicios informaticos, cuenta con
+                                    especialistas para identificar y atender las necesidades de sus clientes.
+                                </div>
+                                <div class="row">
+                                    <a class="d-flex fs-6 justify-content-start align-items-center mt-3" href="#">
+                                        <span class="fas fa-phone fa-1x p-0 me-2" aria-hidden="true"></span> +51 933 493
+                                        186
+                                    </a>
+                                    <a class="d-flex fs-6 align-items-center text-start" href="#">
+                                        <span class="fa fa-envelope p-0 me-2" aria-hidden="true"></span>
+                                        info@alestec.com
+                                    </a>
+                                    <a class="d-flex fs-6 align-items-center text-start" href="#">
+                                        <span class="fa fa-globe p-0 me-2" aria-hidden="true"></span> Alestec.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 ">
+                <div class="row pe-3">
+                    <div class="row container-md m-3">
+                        <div class="d-flex">
+                            <div class="footer row">
+                                <div class="col-12 fs-6 text-start">
+                                    LOCALIZACIÓN
+                                </div>
+                                <div class="col-12 h5 text-start ent-secondary">
+                                    Donde encontrarnos?
+                                </div>
+                                <iframe class="google-maps" width="339" height="249" frameborder="0" scrolling="no"
+                                    marginheight="0" marginwidth="0" id="gmap_canvas"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1969.6482527131247!2d-78.5193125419873!3d-9.127669098363118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ab85b28ea54e77%3A0xc0971dc71d8fdda0!2sUrbanizaci%C3%B3n%20Jos%C3%A9%20Carlos%20Mari%C3%A1tegui%2C%20Chimbote%2002711%2C%20Peru!5e0!3m2!1sen!2sus!4v1627078305718!5m2!1sen!2sus"
+                                    width="600" height="450" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                                <!--iframe class="google-maps" width="339" height="249" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=339&amp;height=249&amp;hl=en&amp;q=A.h%2019%20de%20Marzo,%20Nuevo%20Chimbote%2002712%20Nuevo%20Chimbote+(Alestec)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=b95fc0bac8a8a3887310447cc5b6a9161fee2c2d'></script-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 ">
+                <div class="row pe-3">
+                    <div class="row container-md p-3">
+                        <div class="d-flex align-self-center">
+                            <div class="footer row">
+                                <div class="col-12 h4 ent-secondary d-flex" href="#">
+                                    Servicios
+                                </div>
+                                <a class="col-12 fs-6 d-flex" href="#">
+                                    <div>Aplicaciones móviles</div>
+                                </a>
+                                <a class="col-12 fs-6 d-flex" href="#">
+                                    <div> Diseño Web</div>
+                                </a>
+                                <a class="col-12 fs-6 d-flex" href="#">
+                                    <div> Marketing</div>
+                                </a>
+                                <a class="col-12 fs-6 d-flex" href="#">
+                                    <div> Posicionamiento SEO</div>
+                                </a>
+                                <a class="col-12 fs-6 d-flex" href="#">
+                                    <div> Inteligencia de negocio</div>
+                                </a>
+                                <a class="col-12 fs-6 d-flex" href="#">
+                                    <div> Redes informáticas</div>
+                                </a>
+                                <a class="col-12 fs-6 d-flex" href="#">
+                                    <div> Soporte</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 ">
+                <div class="row pe-3">
+                    <div class="row container-md m-3">
+                        <div class="d-flex">
+                            <div class="footer row">
+                                <div class="col-12 fs-6 text-start">
+                                    SÍGUENOS
+                                </div>
+                                <div class="col-12 h4 text-start ent-secondary">
+                                    Redes Sociales
+                                </div>
+                                <div class="col-12 fs-6 text-start">
+                                    Para estar al día de las novedades de Alestec.
+                                </div>
+                                <div class="row mt-4 d-flex justify-content-center">
+                                    <a class="col-md-3 m-1 text-light ico-roundedbutton d-flex align-items-center justify-content-center"
+                                        href="#">
+                                        <i class="fab fa-facebook-f fs-4" aria-hidden="true"></i>
+                                    </a>
+                                    <a class="col-md-3 m-1 text-light ico-roundedbutton d-flex align-items-center justify-content-center"
+                                        href="#">
+                                        <i class="fab fa-twitter fs-4" aria-hidden="true"></i>
+                                    </a>
+                                    <a class="col-md-3 m-1 text-light ico-roundedbutton d-flex align-items-center justify-content-center"
+                                        href="#">
+                                        <i class="fab fa-pinterest-p fs-4" aria-hidden="true"></i>
+                                    </a>
+                                    <a class="col-md-3 m-1 text-light ico-roundedbutton d-flex align-items-center justify-content-center"
+                                        href="#">
+                                        <i class="fab fa-linkedin-in fs-4" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="bg-dark text-light d-flex justify-content-between px-5 py-4 row m-0">
+            <div class="col-lg-6 d-flex align-items-center">
+                © <p class="d-flex ms-1 me-0 my-0 fw-bold ">Alestec</p>. All rights reserved.
+            </div>
+            <div class="col-lg-6 footer d-flex align-items-center justify-content-end">
+                <a class="my-2 me-3" href="#">Inicio</a>
+                <a class="my-2 me-3" href="#">Nosotros</a>
+                <a class="my-2 me-3" href="#">Servicios</a>
+                <a class="my-2 me-3" href="#">Productos</a>
+                <a class="my-2 me-3" href="#">Blog</a>
+                <a class="my-2 me-3" href="#">Contáctenos</a>
+            </div>
+        </div>
+    </footer>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <img class="logo-movil" src="assets/img/logo/logo.png">         
+    </div>
+    <div class="offcanvas-body">
+        <a class="row mx-2  offcanvas-list" href="index.html#inicio" data-bs-dismiss="offcanvas">
+            <div class="col-3"><span class="fa fa-home" aria-hidden="true"></span></div>
+            <div class="col-9 ">Inicio</div>
+        </a>
+        <a class="row mx-2  offcanvas-list" href="index.html#nosotros" data-bs-dismiss="offcanvas">
+            <div class="col-3"><span class="fa fa-users" aria-hidden="true"></span></div>
+            <div class="col-9 ">Nosotros</div>
+        </a>
+        <a class="row mx-2 offcanvas-list" href="index.html#servicios" data-bs-dismiss="offcanvas">
+            <div class="col-3"><span class="fa fa-shopping-cart" aria-hidden="true"></span></div>
+            <div class="col-9 ">Productos</div>
+        </a>
+        <a class="row mx-2  offcanvas-list" href="Precios.html" data-bs-dismiss="offcanvas">
+            <div class="col-3"><span class="fa fa-tag" aria-hidden="true"></span></div>
+            <div class="col-9 ">Precios</div>
+        </a>
+        <a class="row mx-2  offcanvas-list" href="index.html#" data-bs-dismiss="offcanvas">
+            <div class="col-3"><span class="fa fa-address-book" aria-hidden="true"></span></div>
+            <div class="col-9 ">Blog</div>
+        </a>
+        <a class="row mx-2  offcanvas-list" href="index.html#" data-bs-dismiss="offcanvas">
+            <div class="col-3"><span class="fa fa-envelope" aria-hidden="true"></span></div>
+            <div class="col-9 ">Contáctenos</div>
+        </a>
+    </div>
+    <div class="offcanvas-footer">
+        <a class="offcanvas-close" data-bs-dismiss="offcanvas" >x</a>         
+    </div>
+
+    
+    </div>
+
+ 
+
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+
+</html>
